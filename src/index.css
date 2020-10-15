@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+ul {
+  list-style: none;
+  width: 50%;
+  margin: 10px auto;
+}
+
+li {
+  margin: 0;
+}
+
+
+/* +& NAV STYLING */
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid navy;
+  padding: 4px;
+}
+
+.App > a > h1 {
+  text-align: center;
+  text-decoration: none;
+
+}
+
+.App > a {
+  text-decoration: none;
+  color: black
+}
+
+.App > a > h1 > span {
+  background-color: navy;
+  color: white
+}
+
+/* +& FORM STYLING */
+
+input[type="text"], input[type="password"], input[type="submit"], button {
+  padding: 5px;
+  margin: 8px;
+  background-color: navy;
+  color: white;
+  border: none;
+  font-size: 24px;
+}
